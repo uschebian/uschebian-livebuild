@@ -97,6 +97,9 @@ xfce4-notifyd
 engrampa
 thunar-archive-plugin
 xfce4-taskmanager
+
+gir1.2-xfconf-0
+gir1.2-libxfce4util-1.0	
 xfce4-screensaver
 
 hicolor-icon-theme
