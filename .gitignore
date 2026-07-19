@@ -1,7 +1,7 @@
 binary.modified_timestamps
 chroot.files
 chroot.packages.install
-chroot.package.live
+chroot.packages.live
 live-image-amd64.contents
 live-image-amd64.files
 live-image-amd64.hybrid.iso
