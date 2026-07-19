@@ -1,0 +1,11 @@
+[Desktop Entry]
+Categories=
+Comment=Part animation software, part game engine - Candlestickers presents: Candlestick!
+Exec=app
+StartupWMClass=app
+Icon=candlestick
+Name=Candlestick
+Terminal=false
+Type=Application
+Path=
+StartupNotify=false

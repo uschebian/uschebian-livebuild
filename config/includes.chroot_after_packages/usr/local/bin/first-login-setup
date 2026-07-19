@@ -1,0 +1,27 @@
+#!/bin/sh
+
+[ -f ~/.first-login ] || exit 0
+ 
+xdg-user-dirs-update
+
+rsync -av --remove-source-files ~/xdg-user-dir-desktop/ $(xdg-user-dir DESKTOP)/ && \
+rm -rf ~/xdg-user-dir-desktop/
+
+xfce4-set-wallpaper /usr/share/backgrounds/xfce/peakpx-debian.jpg
+
+mkdir -p ~/.config/gtk-3.0/
+echo file://$(xdg-user-dir DOCUMENTS) >> ~/.config/gtk-3.0/bookmarks
+echo file://$(xdg-user-dir PICTURES) >> ~/.config/gtk-3.0/bookmarks
+echo file://$(xdg-user-dir VIDEOS) >> ~/.config/gtk-3.0/bookmarks
+echo file://$(xdg-user-dir DOWNLOAD) >> ~/.config/gtk-3.0/bookmarks
+echo file:///usr/local/share/Code%20Templates/ >> ~/.config/gtk-3.0/bookmarks
+
+DESKTOP=$(xdg-user-dir DESKTOP)
+for file in $DESKTOP/*.desktop $DESKTOP/*/*.desktop $DESKTOP/*/*/*.desktop; do
+   gio set -t string "$file" metadata::xfce-exe-checksum "$(sha256sum "$file" | awk '{print $1}')"
+done
+
+rm ~/.first-login
+rm ~/.config/autostart/firstlogin.desktop
+
+uschebian-readme &
