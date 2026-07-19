@@ -5,7 +5,8 @@
 		"HttpsOnlyMode": "force_enabled",
 
 		"DNSOverHTTPS": {
-			"Enabled": true
+			"Enabled": true,
+			"ProviderURL": "https://family.dns.mullvad.net/dns-query"
 		},
 		
 		"DontCheckDefaultBrowser": true,
