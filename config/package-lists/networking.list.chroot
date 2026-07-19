@@ -1,0 +1,15 @@
+ca-certificates
+
+network-manager
+network-manager-gnome
+wireless-tools
+libnss-mdns
+iproute2
+
+wpasupplicant
+modemmanager
+
+unattended-upgrades
+
+ufw
+gufw

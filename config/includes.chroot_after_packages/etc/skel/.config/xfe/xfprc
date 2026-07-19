@@ -1,0 +1,16 @@
+[OPTIONS]
+width=1600
+showtoolbar=1
+filename=
+height=827
+
+[SETTINGS]
+single_click=0
+bordercolor=Gray49
+relative_resize=1
+tippause=500
+basecolor=#dcdad5
+file_tooltips=1
+tiptime=10000
+save_win_pos=0
+

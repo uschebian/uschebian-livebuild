@@ -1,0 +1,10 @@
+[org/gnome/gedit/preferences/editor]
+
+editor-font='Monospace 11'
+style-scheme-for-dark-theme-variant='Yaru-dark'
+highlight-current-line=true
+display-line-numbers=true
+
+[org/gnome/gedit/preferences/ui]
+
+theme-variant='dark'

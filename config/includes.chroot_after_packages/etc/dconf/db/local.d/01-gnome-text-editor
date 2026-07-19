@@ -1,0 +1,7 @@
+[org/gnome/TextEditor]
+
+custom-font='Monospace 11'
+style-scheme='builder-dark'
+style-variant='dark'
+highlight-current-line=true
+show-line-numbers=true

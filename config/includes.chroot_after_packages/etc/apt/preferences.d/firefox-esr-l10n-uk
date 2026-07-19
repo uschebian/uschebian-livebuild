@@ -1,0 +1,3 @@
+Package: firefox-esr-l10n-uk
+Pin: origin packages.mozilla.org
+Pin-Priority: 1001

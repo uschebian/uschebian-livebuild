@@ -1,0 +1,16 @@
+[Desktop Entry]
+Name=L3afpad
+Name[uk]=Xfe
+Comment=Simple text editor
+Comment[uk]=A lightweight file manager for X Window
+Exec=env LANG=ru_RU.UTF-8 xfe
+Icon=xfe
+Terminal=false
+Type=Application
+MimeType=text/plain;
+Categories=GTK;Utility;TextEditor;
+Keywords=text;editor;
+InitialPreference=6;
+X-XFCE-Source=file:///usr/share/applications/l3afpad.desktop
+Path=
+StartupNotify=true

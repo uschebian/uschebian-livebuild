@@ -1,0 +1,15 @@
+[Desktop Entry]
+Name=LazPaint
+Name[fr]=LazPaint
+Comment=LazPaint
+Comment[fr]=LazPaint
+Icon=lazpaint
+Exec=env LANG=ru_RU.UTF-8 lazpaint %f
+Terminal=false
+Type=Application
+Categories=Graphics
+GenericName=LazPaint
+Keywords=image; editor; raster; vectorial; paint; layer; photo
+MimeType=application/lzp;image/bmp;image/jpeg;image/png;image/gif;image/tiff;image/x-tga;image/vnd.microsoft.icon;image/svg+xml;image/x-adobe-dng;image/x-nikon-nef;image/x-sony-arw;image/x-canon-cr2;image/webp
+Path=
+StartupNotify=true

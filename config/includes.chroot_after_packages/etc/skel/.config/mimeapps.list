@@ -1,0 +1,22 @@
+[Default Applications]
+text/plain=org.xfce.mousepad.desktop
+x-scheme-handler/http=xfce4-web-browser.desktop
+x-scheme-handler/https=xfce4-web-browser.desktop
+image/svg+xml=org.xfce.ristretto.desktop
+image/png=org.xfce.ristretto.desktop
+image/gif=org.xfce.ristretto.desktop
+image/webp=org.xfce.ristretto.desktop
+application/x-zerosize=org.xfce.mousepad.desktop
+text/html=firefox-esr.desktop
+application/xml=org.xfce.mousepad.desktop
+application/pdf=firefox-esr.desktop
+
+[Added Associations]
+text/plain=org.xfce.mousepad.desktop;notepadqq.desktop;
+x-scheme-handler/http=xfce4-web-browser.desktop;
+x-scheme-handler/https=xfce4-web-browser.desktop;
+application/x-desktop=org.xfce.mousepad.desktop;
+application/xml=org.xfce.mousepad.desktop;
+application/pdf=firefox-esr.desktop;
+application/vnd.debian.binary-package=gdebi.desktop;
+text/html=firefox-esr.desktop;notepadqq.desktop;org.xfce.mousepad.desktop;

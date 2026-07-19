@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=p5* Desktop Editor
+Comment=
+Exec=p5-desktop-editor
+Icon=p5
+Path=
+Terminal=false
+StartupNotify=true

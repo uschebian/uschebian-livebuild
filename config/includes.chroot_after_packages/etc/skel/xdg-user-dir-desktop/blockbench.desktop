@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Blockbench
+Exec=/opt/Blockbench/blockbench %U
+Terminal=false
+Type=Application
+Icon=blockbench
+StartupWMClass=Blockbench
+Comment=Low-poly modeling and animation software
+MimeType=model/vnd.blockbench.bbmodel;application/json;
+Categories=Graphics;3DGraphics;

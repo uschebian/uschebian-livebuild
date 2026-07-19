@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Вихідний код додаткового ПЗ
+Comment=
+Exec=xdg-open /usr/src/uschebian
+Icon=folder-documents
+Path=
+Terminal=false
+StartupNotify=true

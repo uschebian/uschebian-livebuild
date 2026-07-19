@@ -1,0 +1,9 @@
+#!/bin/sh
+
+set -e
+
+apt clean
+apt autoclean
+rm -rf /var/lib/apt/lists/*
+rm -rf /var/cache/apt/*
+sudo find /usr/share/icons -mindepth 1 -maxdepth 1 -type d -exec gtk-update-icon-cache -f -t {} \;

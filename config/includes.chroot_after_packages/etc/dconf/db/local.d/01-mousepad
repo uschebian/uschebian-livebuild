@@ -1,0 +1,23 @@
+[org/xfce/mousepad/preferences/file]
+session-restore='always'
+
+[org/xfce/mousepad/preferences/view]
+color-scheme='tango'
+highlight-current-line=true
+indent-on-tab=true
+show-line-numbers=true
+show-whitespace=true
+tab-width=uint32 4
+use-default-monospace-font=true
+
+[org/xfce/mousepad/preferences/window]
+always-show-tabs=false
+client-side-decorations=false
+path-in-title=true
+cycle-tabs=true
+recent-menu-items=uint32 15
+statusbar-visible=true
+toolbar-icon-size='menu'
+toolbar-style='icons'
+toolbar-visible=true
+expand-tabs=false

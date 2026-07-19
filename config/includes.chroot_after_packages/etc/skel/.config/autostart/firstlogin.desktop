@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=first login setup
+Comment=
+Exec=first-login-setup
+Icon=
+Path=
+Terminal=false
+StartupNotify=false

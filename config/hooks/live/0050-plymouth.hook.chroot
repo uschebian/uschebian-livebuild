@@ -1,0 +1,12 @@
+#!/bin/bash
+set -e
+
+mkdir -p /etc/initramfs-tools/conf.d
+echo "FRAMEBUFFER=y" > /etc/initramfs-tools/conf.d/splash.conf
+
+cat >> /etc/initramfs-tools/modules << 'EOF'
+drm
+drm_kms_helper
+EOF
+
+plymouth-set-default-theme -R bgrt

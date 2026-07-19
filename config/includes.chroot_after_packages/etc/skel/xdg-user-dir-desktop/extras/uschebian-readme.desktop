@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Прочитай мене
+Comment=
+Exec=uschebian-readme
+Icon=text-x-readme
+Path=
+Terminal=false
+StartupNotify=false
