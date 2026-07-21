@@ -1,0 +1,1 @@
+deb [signed-by=/etc/apt/trusted.gpg.d/uschebian.gpg.key.chroot.asc] https://github.com/uschebian/uschebian-repository/releases/latest/download/ ./
