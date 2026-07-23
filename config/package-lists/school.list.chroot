@@ -27,7 +27,7 @@ plymouth-themes
 synaptic
 gdebi
 timeshift
-deja-dup
+#deja-dup
 
 zip
 unzip
