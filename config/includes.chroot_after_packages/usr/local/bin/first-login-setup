@@ -7,7 +7,7 @@ xdg-user-dirs-update
 rsync -av --remove-source-files ~/xdg-user-dir-desktop/ $(xdg-user-dir DESKTOP)/ && \
 rm -rf ~/xdg-user-dir-desktop/
 
-xfce4-set-wallpaper /usr/share/backgrounds/xfce/peakpx-debian.jpg
+xfce4-set-wallpaper /usr/share/backgrounds/xfce/xfce-leaves.svg
 
 mkdir -p ~/.config/gtk-3.0/
 echo file://$(xdg-user-dir DOCUMENTS) >> ~/.config/gtk-3.0/bookmarks
