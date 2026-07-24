@@ -1,0 +1,87 @@
+# Xorg and Mesa
+xserver-xorg
+mesa-libgallium
+mesa-vulkan-drivers
+mesa-va-drivers
+libgl1-mesa-dri
+mesa-utils
+
+# LightDM display manager
+lightdm
+lightdm-gtk-greeter
+
+# PolicyKit
+libpam-systemd
+polkitd
+mate-polkit
+
+# GVFS
+gvfs
+gvfs-backends
+gvfs-common
+udisks2
+
+# xfce4 base
+xfce4
+xfdesktop4
+xfdesktop4-data
+xfce4-power-manager
+xfce4-screenshooter
+xfce4-notifyd
+tumbler
+webp-pixbuf-loader
+libglib2.0-bin
+xdg-desktop-portal-gtk
+xdg-user-dirs
+libdbus-glib-1-2
+
+# Thunar file manager
+thunar
+thunar-volman
+thunar-archive-plugin
+
+# xfce4 panel plugins
+xfce4-whiskermenu-plugin
+#xfce4-power-manager-plugins
+xfce4-xkb-plugin
+xfce4-indicator-plugin
+xfce4-pulseaudio-plugin
+
+# xfce4-screensaver
+gir1.2-xfconf-0
+gir1.2-libxfce4util-1.0	
+xfce4-screensaver
+
+# Themes
+hicolor-icon-theme
+adwaita-icon-theme
+gnome-icon-theme
+tango-icon-theme
+yaru-theme-gtk
+yaru-theme-icon
+dmz-cursor-theme
+papirus-icon-theme
+orchis-gtk-theme
+
+# Fonts
+fonts-noto
+fonts-noto-color-emoji
+fonts-noto-ui-core
+fonts-liberation
+fonts-unifont
+
+# Qt integration
+qt5-gtk-platformtheme
+qt6-gtk-platformtheme
+qt6-svg-plugins
+
+# Audio
+pulseaudio
+alsa-utils
+pavucontrol
+
+# FUSE
+fuse
+fuse3
+libfuse2t64
+libfuse3-4
